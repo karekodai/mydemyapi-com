@@ -1,0 +1,225 @@
+{
+  "title": "My Dem Yapı – Güvenle Yaşam, Kaliteyle Yapı",
+  "description": "My Dem Yapı: Kentsel dönüşümde güvenilir ortağınız. Depreme dayanıklı, estetik ve fonksiyonel yapılarla Türkiye'nin yapı kalitesini yükseltiyoruz.",
+  "metadata": {
+    "author": "My Dem Yapı",
+    "keywords": ["kentsel dönüşüm", "inşaat firması", "kat karşılığı", "riskli yapı yenileme", "depreme dayanıklı bina", "anahtar teslim proje"]
+  },
+  "typography": {
+    "googleFonts": ["Inter", "Roboto"],
+    "fontFallbacks": ["system-ui", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Helvetica Neue", "Arial", "sans-serif"],
+    "baseFontSize": "16px",
+    "headingFont": "Inter",
+    "bodyFont": "Roboto"
+  },
+  "seo": {
+    "ogTitle": "My Dem Yapı – Kentsel Dönüşümde Güven ve Kalite",
+    "ogDescription": "Arsa ve kat malikleri için şeffaf, sürdürülebilir ve modern kentsel dönüşüm çözümleri. Projelerinizi güvenle bize emanet edin.",
+    "ogImage": "og-image.png",
+    "twitterCard": "summary_large_image",
+    "canonicalUrl": "https://www.mydemyapi.com.tr"
+  },
+  "favicon": {
+    "icon": "favicon.ico",
+    "appleTouchIcon": "apple-touch-icon.png"
+  },
+  "sharedBlocks": [
+    {
+      "name": "header",
+      "description": "Sitenin ana menüsünü, logosunu ve iletişim butonunu içeren başlık bölümü.",
+      "variables": {
+        "logo": "my-dem-logo.png",
+        "logoHeight": 70,
+        "brandName": "",
+        "navigationLinks": [
+          {
+            "label": "Kimiz?",
+            "href": "#hakkimizda"
+          },
+          {
+            "label": "Hizmetlerimiz",
+            "href": "#hizmetler"
+          },
+          {
+            "label": "Neden Biz?",
+            "href": "#neden-biz"
+          },
+          {
+            "label": "Sürecimiz",
+            "href": "#surec"
+          }
+        ],
+        "ctaButton": {
+          "text": "Teklif Alın",
+          "href": "https://wa.me/905378282068?text=Merhaba%2C%20kentsel%20d%C3%B6n%C3%BC%C5%9F%C3%BCm%20projesi%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum."
+        },
+        "backgroundColor": "#ffffff",
+        "textColor": "#1f2937",
+        "sticky": true
+      }
+    },
+    {
+      "name": "footer",
+      "description": "Sitenin iletişim bilgilerini, sosyal medya linklerini ve telif hakkı bilgilerini içeren alt bölümü.",
+      "variables": {
+        "logo": "my-dem-logo.png",
+        "logoSize": 50,
+        "companyName": "My Dem Yapı",
+        "tagline": "Güvenle yaşam, kaliteyle yapı.",
+        "copyrightText": "© 2024 My Dem Yapı. Tüm hakları saklıdır.",
+        "email": {
+          "text": "info@mydemyapi.com.tr",
+          "href": "mailto:info@mydemyapi.com.tr"
+        },
+        "phone": {
+          "text": "+90 216 123 45 67",
+          "href": "tel:+902161234567"
+        },
+        "address": {
+          "text": "Örnek Mah. İnşaat Sk. No:1 D:2, Ataşehir/İstanbul"
+        },
+        "backgroundColor": "#ffffff",
+        "textColor": "#9ca3af",
+        "borderColor": "#374151"
+      }
+    }
+  ],
+  "pages": [
+    {
+      "name": "home",
+      "path": "/",
+      "title": "Ana Sayfa | My Dem Yapı",
+      "blocks": [
+        "header",
+        {
+          "name": "hero-with-image-and-buttons",
+          "description": "Ana karşılama bölümü. Şirketin ana vaadini ve harekete geçirici mesajları içerir.",
+          "variables": {
+            "heading": "Kentsel Dönüşümde Güvenilir Çözüm Ortağınız",
+            "description": "My Dem Yapı olarak, riskli yapılarınızı modern, depreme dayanıklı ve değerli yaşam alanlarına dönüştürüyoruz. Şeffaf süreç yönetimi ve kalite anlayışımızla hayallerinizi birlikte inşa edelim.",
+            "buttons": [
+              {
+                "text": "Hizmetlerimizi İnceleyin",
+                "href": "#hizmetler",
+                "variant": "primary"
+              },
+              {
+                "text": "Ücretsiz Keşif Talep Edin",
+                "href": "https://wa.me/905378282068?text=Merhaba%2C%20%C3%BCcretsiz%20ke%C5%9Fif%20hizmeti%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum.",
+                "variant": "secondary"
+              }
+            ],
+            "image": "hero-image-modern-building.png",
+            "imageAlt": "My Dem Yapı tarafından inşa edilmiş modern ve estetik bir apartman cephesi",
+            "backgroundColor": "#f9fafb",
+            "textColor": "#111827",
+            "primaryButtonBorderColor": "#065f46",
+            "secondaryButtonBorderColor": "#d1d5db"
+          }
+        },
+        {
+          "name": "content-h2-with-intro",
+          "description": "Şirketin kimliğini ve temel yaklaşımını anlatan 'Kimiz?' bölümü.",
+          "variables": {
+            "heading": "Güven ve Kalite Üzerine İnşa Ediyoruz",
+            "introText": "My Dem Yapı, sektördeki saygınlığı ile tanınan bir inşaat yüklenici firmasıdır. Kuruluşumuzdan bu yana temel yaklaşımımız; güven, şeffaflık ve sürdürülebilir kalite üzerine inşa edilen projeler üretmektir. Sahip olduğumuz teknik birikim, sağlam finansal yapı ve projeye özel yönetim anlayışıyla kent içinde fark yaratan yapılaşmalara imza atıyoruz.",
+            "textAlignment": "center",
+            "backgroundColor": "#ffffff",
+            "textColor": "#374151",
+            "id": "hakkimizda"
+          }
+        },
+        {
+            "name": "features-with-icons",
+            "description": "Şirketi rakiplerinden ayıran temel avantajları vurgulayan 'Neden My Dem Yapı?' bölümü.",
+            "variables": {
+              "features": [
+                {
+                  "icon": "gavel",
+                  "heading": "Güncel Mevzuata Hakimiyet",
+                  "description": "Kentsel dönüşümle ilgili en son yasal düzenlemeleri ve yönetmelikleri yakından takip ederek projelerinizi pürüzsüzce yönetiriz."
+                },
+                {
+                  "icon": "handshake",
+                  "heading": "Orta Ölçek Avantajı",
+                  "description": "Bürokrasiden uzak, esnek yapımız sayesinde projelerinize özel çözümler sunar, sizinle yakın bir iş birliği içinde çalışırız."
+                },
+                {
+                  "icon": "verified",
+                  "heading": "Şeffaf Süreç ve Güven",
+                  "description": "Kat karşılığı projelerde tüm risk ve kazanımları şeffafça paylaşır, sözleşme ve iletişimle karşılıklı güveni en üst düzeyde tutarız."
+                },
+                {
+                    "icon": "recycling",
+                    "heading": "Sürdürülebilir Yaklaşım",
+                    "description": "Enerji verimliliği, yeşil bina yaklaşımları ve uzun ömürlü malzeme seçimleriyle sadece bugün için değil, gelecek için de değer yaratırız."
+                }
+              ],
+              "backgroundColor": "#f9fafb",
+              "textColor": "#111827",
+              "iconSize": 80,
+              "iconBackgroundColor": "#e0e7ff",
+              "iconColor": "#3730a3",
+              "id": "neden-biz"
+            }
+        },
+        {
+          "name": "content-with-images-and-intro",
+          "description": "Şirketin tamamladığı projeleri sergileyen 'Projelerimiz' bölümü.",
+          "variables": {
+            "heading": "Hayata Geçirdiğimiz Projeler",
+            "introText": "Her projemizde modern mimariyi, fonksiyonelliği ve kaliteyi bir araya getirerek, içinde yaşayanlara huzur ve güven veren mekanlar tasarlıyoruz.",
+            "items": [
+              {
+                "image": "project-image-kadikoy.png",
+                "title": "Kadıköy Modern Konutları",
+                "link": "#"
+              },
+              {
+                "image": "project-image-uskudar.png", 
+                "title": "Üsküdar Prestij Evleri"
+              },
+              {
+                "image": "project-image-atasehir.png",
+                "title": "Ataşehir Yaşam Merkezi",
+                "link": "#"
+              }
+            ],
+            "backgroundColor": "#ffffff",
+            "textColor": "#374151",
+            "id": "hizmetler"
+          }
+        },
+        {
+            "name": "faq",
+            "description": "İnşaat ve teslimat sürecinin adımlarını SSS formatında sunan bölüm.",
+            "variables": {
+              "heading": "Proje Sürecimiz Nasıl İşliyor?",
+              "items": [
+                {
+                  "question": "İlk adım nedir? Analiz ve fizibilite nasıl yapılıyor?",
+                  "answer": "Sürecimiz, arsanızın imar durumu, mevcut yapı stoğu ve maliyet analizlerini içeren detaylı bir fizibilite çalışmasıyla başlar. Bu çalışma sonucunda size en uygun teklifleri sunarız."
+                },
+                {
+                  "question": "Mimari proje ve planlama aşamasında beklentilerim dikkate alınıyor mu?",
+                  "answer": "Kesinlikle. Sizin istek ve beklentilerinizi, modern mimari anlayışımız ve mahalle dokusuyla birleştirerek estetik ve fonksiyonel projeler geliştiririz. Karar süreçlerine sizi de dahil ederiz."
+                },
+                {
+                  "question": "Resmi izinler ve ruhsat süreçlerini kim takip ediyor?",
+                  "answer": "Tüm resmi süreçleri (belediye, yapı denetim, iskan, tapu vb.) sizin adınıza biz yürütür ve şeffaf bir şekilde sizi düzenli olarak bilgilendiririz. 'Anahtar teslim' sorumluluk anlayışıyla çalışırız."
+                },
+                {
+                  "question": "İnşaat kalitesi nasıl kontrol ediliyor?",
+                  "answer": "İnşaatın her aşamasında, malzeme seçiminden işçilik standardına kadar sürekli kalite kontrolü yaparız. Yapı denetim firmalarıyla tam uyum içinde çalışarak projenin sözleşmeye uygunluğunu garanti ederiz."
+                }
+              ],
+              "backgroundColor": "#f9fafb",
+              "textColor": "#111827",
+              "id": "surec"
+            }
+        },
+        "footer"
+      ]
+    }
+  ]
+}
